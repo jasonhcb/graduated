@@ -1,0 +1,13 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: message
+errorFile: IWEB_PATH/controllers/system.php
+errorLine: 943
+errorCode: 8
+errorTime: 2016-04-01 22:17:28
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): System->applyTheme()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(111): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(76): IController->run(applyTheme)
+#3 IWEB_PATH/lib/core/application_class.php(89): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
